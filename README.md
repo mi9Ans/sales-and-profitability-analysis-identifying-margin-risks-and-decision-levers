@@ -1,4 +1,4 @@
-# Sales & Profitability Analysis: Identifying Margin Risks and Decision Levers
+# Sales & Profitability Analysis
 
 ## Project Overview
 This project analyzes sales and profitability performance using the Superstore dataset, with the objective of identifying margin erosion, evaluating the effectiveness of discounting, and isolating actionable levers to improve business performance.
