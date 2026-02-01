@@ -1,44 +1,80 @@
-Sales & Profitability Analysis: Margin Leakage & Discount Governance
-📌 Project Overview
-This project involved a deep-dive analysis of a $2.2M+ sales transaction dataset to evaluate pricing effectiveness and overall profit performance. The goal was to move beyond high-level sales figures to understand the "true" profitability at an order level and identify where the business was losing money.
-+1
+<details>
+<summary><strong>📊 Sales & Profitability Analysis — Margin Leakage & Discount Governance (Redmi Use Case)</strong></summary>
 
-🚀 Key Insights & Business Impact
+---
 
-Margin Leakage Detection: Identified that ~20% of total orders were generating a negative contribution margin.
+## 📌 Project Overview  
 
+This project delivers an end-to-end profitability deep dive on a **$2.2M+ sales transaction dataset**, focused on evaluating **pricing effectiveness** and uncovering the *true order-level profit performance*.  
 
-Root Cause Analysis: Pinpointed specific discounting patterns as the primary driver for profit-negative transactions.
+Instead of stopping at revenue metrics, the analysis isolates **where and why the business is losing money**, enabling data-backed pricing control and margin protection.
 
+---
 
-Risk Mitigation: Developed a Power BI dashboard to provide real-time visibility into high-risk orders and discount impact.
+## 🚀 Key Insights & Business Impact  
 
+### 🔻 Margin Leakage Detection  
+Approximately **20% of total orders** were found to generate a **negative contribution margin**, directly eroding overall profitability.
 
-Strategic Governance: Structured the analysis into performance monitoring metrics to support executive-level pricing control.
+### 🎯 Root Cause Analysis  
+The primary driver of loss-making transactions was traced to **uncontrolled discounting patterns** across specific product and customer segments.
 
-🛠️ Technical Workflow
-1. Data Processing (SQL)
-Utilized CTEs and Window Functions to calculate order-level profitability and rank customer segments.
-+2
+### ⚠️ Risk Mitigation  
+A **Power BI dashboard** was developed to provide **real-time visibility** into:
+- High-risk orders  
+- Discount impact on margins  
+- Profitability trends over time  
 
-Performed discount band analysis across customer and product dimensions.
-+2
+### 🏛️ Strategic Governance  
+The analysis framework was structured into performance monitoring metrics that support **executive-level pricing governance** and **discount policy enforcement**.
 
-2. Exploratory Data Analysis (Python)
-Used Python (Pandas) to evaluate pricing effectiveness and segment the dataset for deeper trend analysis.
-+2
+---
 
-3. Data Visualization (Power BI)
-Engineered KPIs to monitor margin risk and track profit trends over time.
+## 🛠️ Technical Workflow  
 
-Created visual reports to show the correlation between high discount rates and negative margin outcomes.
+### 1️⃣ Data Processing (SQL)  
+- Used **CTEs** and **Window Functions** to calculate **order-level contribution margins**  
+- Ranked customer and product segments by profitability  
+- Conducted **discount band analysis** across multiple business dimensions  
 
-📂 Repository Structure
-/SQL_Queries: Scripts for data extraction and profitability KPI calculation.
+### 2️⃣ Exploratory Data Analysis (Python)  
+- Leveraged **Pandas** for pricing effectiveness analysis  
+- Performed segmentation to identify margin risk clusters  
+- Conducted trend and distribution analysis for discount behavior  
 
-/Python_Notebooks: Exploratory Data Analysis (EDA) and segmentation logic.
+### 3️⃣ Data Visualization (Power BI)  
+- Engineered KPIs to monitor:
+  - Margin risk  
+  - Discount exposure  
+  - Profit performance trends  
+- Built visual reports showing the correlation between **high discount rates** and **negative margin outcomes**
 
-/Dashboards: Power BI files and visualization screenshots.
+---
 
-📈 Business Relevance
-This analysis directly supports margin protection, discount governance, and sales performance analysis, ensuring that growth is profitable and sustainable
+## 📂 Repository Structure  
+
+```
+/SQL_Queries        → Profitability logic, KPI calculations, margin analysis  
+/Python_Notebooks   → EDA, segmentation, pricing effectiveness analysis  
+/Dashboards         → Power BI files and visualization assets  
+```
+
+---
+
+## 📈 Business Relevance  
+
+This project directly supports:
+
+- **Margin Protection**  
+- **Discount Governance**  
+- **Pricing Strategy Optimization**  
+- **Sales Performance Analysis**
+
+The outcome ensures that revenue growth is **profitable, controlled, and sustainable**, not driven by margin-destructive discounting.
+
+---
+
+**Bottom line:** This is not a sales report — it’s a **profit defense system**.
+
+</details>
+
