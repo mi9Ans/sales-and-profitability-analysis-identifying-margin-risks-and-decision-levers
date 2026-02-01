@@ -1,5 +1,5 @@
 <details>
-<summary><strong>📊 Sales & Profitability Analysis — Margin Leakage & Discount Governance (Redmi Use Case)</strong></summary>
+<summary><strong>📊 Sales & Profitability Analysis — Margin Leakage & Discount Governance </strong></summary>
 
 ---
 
